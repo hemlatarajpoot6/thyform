@@ -94,12 +94,13 @@ function App() {
             <Route path='/setting' element={<Setting />} />
             <Route path='/Newform' element={<CustomToolbar />} />
             <Route path='/Settingform' element={<Settingform />} />
+            <Route path='/Setting_email' element={<Setting_email />} />
             <Route path='/thankyoupage' element={<Thankyoupage />} />
             <Route path='/Assign' element={<Assign />} />
             <Route path='/Email' element={<Email />} />
             <Route path='/Prefill' element={<Prefill />} />
             <Route path='/Pdf' element={<Pdf />} />
-            <Route path='/Setting_email' element={<Setting_email />} />
+
             <Route path='/Condition' element={<Condition />} />
             <Route path='/Auto' element={<Auto />} />
             <Route path='/Rept' element={<Rept />} />
